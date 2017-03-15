@@ -141,3 +141,20 @@ Local Space   ->    World Space   ->    View Space   ->   Projection Space
 
 지역 변수 예 : 각 정점마다 가지고있는 데이터 (Vertex buffer로부터 입력을 받음) 
 
+
+# Pixcel Shader
+
+픽셸 세이더의 가장 중요한 임무는 색을 반환하는 것이다.
+
+```c
+float4 ps_main() : COLOR
+{
+ return float4(1.0f,0,0,1.0f);
+}
+```
+
+# 색의 표현 방법
+
+비트수에 상관없이 정규화를 시켜서 표현한다. 0~1 사이의 값을 가진다.
+
+
