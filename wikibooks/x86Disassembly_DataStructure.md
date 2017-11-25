@@ -1,6 +1,6 @@
 # x86 Disassembly/Data Structures
 
-stack overflow에 관련된 자료를 찾아보던 중, 어셈블리를 공부하지 않았던 저같은 초보자에게도 좋은 자료가 있어 한국어 [페이지](https://incubator.wikimedia.org/wiki/Wb/kr/X86_Disassembly/Data_Structures)를 만들었습니다. 
+stack overflow에 관련된 자료를 찾아보던 중, 어셈블리를 공부하지 않았던 저같은 초보자에게도 좋은 자료가 있어 한국어 [페이지](https://ko.wikibooks.org/wiki/X86_Disassembly/Data_Structures)를 만들었습니다. 
 
 # 자료 구조
 
