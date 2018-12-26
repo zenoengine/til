@@ -16,7 +16,7 @@ docker images
 5. 실행
 
 ```
-docker run -i -t tensorflow/tensorflow
+docker run -i -t -e LANG=C.UTF-8 tensorflow/tensorflow
 ```
 
 6. image 저장
@@ -29,5 +29,5 @@ docker commit [ID] [reponame]:[tagName]
 7. volume mount
 
 ```
-docker run -i -t -v C:\MyFolder:\MyDir [reponame]:tagName
+docker run -i -t -e LANG=C.UTF-8 -v C:\MyFolder:\MyDir [reponame]:tagName
 ```
