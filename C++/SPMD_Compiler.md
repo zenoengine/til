@@ -31,7 +31,7 @@ SSE/AVX/AVX2/AVX-512/NEON...(experimental)
 - Explict vectorziation using two new keywords *uniform* and *varying*
     - Again, ISPC is not an auto vectorzing compiler
 
-(It's basically shared programming for cpu)
+(It's basically shader programming for cpu)
 
 # The key concept "uniform" vs "varing"
 
