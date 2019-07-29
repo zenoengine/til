@@ -57,5 +57,9 @@ cmake -DCMAKE_INSTALL_PREFIX=/absolute/path/to/ispc/bin -DCMAKE_CXX_COMPILER=cla
 make
 ```
 
+# Add PATH
+
+You should have an ispc binary in the top-level ispc directory when the build completes. Add /absolute/path/to/ispc/bin to your PATH and you're ready to go!
+
 # reference
 https://github.com/ispc/ispc/wiki/Building-ispc
